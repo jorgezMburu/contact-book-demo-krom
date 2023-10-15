@@ -1,5 +1,5 @@
 # contact-book-demo-krom - Follow the below steps
-First import the database provided to your local machine then follow the steps below
+First import the database(`krom_demo.sql`) provided to your local machine then follow the steps below
 
 1. git clone https://github.com/jorgezMburu/contact-book-demo-krom.git
 2. cd contact-book-demo-krom
