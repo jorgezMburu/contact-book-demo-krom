@@ -9,19 +9,19 @@ First import the database provided to your local machine then follow the steps b
 6. Navigate to your browser or using your preffered rest client to the url: `http://localhost:2000/`
 7. Available routes
     - GET `http://localhost:2000/contact/index` - lists all available contacts
-    - POST `http://localhost:2000/contact/create` - create a new contact
+    - POST `http://localhost:2000/contact/create` - create a new contact.
         Request body
         `{
           "full_name": "Test Krom Contact",
           "phone_number": "254707030720"
         }`
-    - POST `http://localhost:2000/contact/update` - updates an existing contact by phone number
+    - POST `http://localhost:2000/contact/update` - updates an existing contact by phone number.
         Request body
         `{
           "full_name": "Test Krom Update",
           "phone_number": "254707030720"
         }`
-    - POST `http://localhost:2000/contact/delete` - deletes an existing contact by phone number
+    - POST `http://localhost:2000/contact/delete` - deletes an existing contact by phone number.
         Request body
         `{
           "phone_number": "254707030720"
