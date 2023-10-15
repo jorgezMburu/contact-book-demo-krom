@@ -6,7 +6,7 @@ const encyptor = require('../utils/encryption')
 router.get('/', ( req, res ) => {
     res.send({
         status_code: 200, 
-        message: "Allmost there! Write the correct route to proceed"
+        message: "Almost there! Write the correct route to proceed"
     });
 })
 
